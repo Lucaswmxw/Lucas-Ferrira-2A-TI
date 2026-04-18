@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #179bbf;
+    background: linear-gradient(90deg, rgba(23, 155, 191, 1) 0%, rgba(10, 51, 61, 1) 100%);
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: #00b7ff;
+    background: linear-gradient(90deg, rgba(0, 183, 255, 1) 0%, rgba(0, 28, 79, 1) 100%);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    width: 300px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #179bbf;
+    
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+.btn-acessar {
+    border-radius: 50px;
+    width: 35%;
+    height: 5vh;
+    background: #fff;
+    border-color: #179bbf;
+    color: #179bbf;
+}
